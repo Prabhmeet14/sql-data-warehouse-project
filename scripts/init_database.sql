@@ -34,3 +34,11 @@ GO
 -- Create Schemas
 CREATE SCHEMA bronze;
 GO
+
+-- Create Schemas
+CREATE SCHEMA silver;
+GO
+
+-- Create Schemas
+CREATE SCHEMA gold;
+GO
