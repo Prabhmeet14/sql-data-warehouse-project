@@ -84,23 +84,21 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
  ## 📁 Project Structure
  
-sql-data-warehouse-project/
-│
-├── datasets/                           # Raw ERP and CRM datasets
-│
-├── docs/                               # Project documentation and architecture
-│   ├── etl.drawio                      # ETL techniques and methods
-│   ├── data_architecture.drawio        # Project architecture
-│   ├── data_catalog.md                 # Dataset fields and metadata
-│   ├── data_flow.drawio                # Data flow diagram
-│   ├── data_models.drawio              # Data models and star schema
-│   └── naming-conventions.md           # Naming guidelines
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Raw data extraction and loading
-│   ├── silver/                         # Data cleaning and transformation
-│   └── gold/                           # Analytical data models
-│
-├── tests/                              # Data quality and testing scripts
-│
-└── README.md                           # Project overview and instructions
+- **`datasets/`** – Raw ERP and CRM datasets.
+
+- **`docs/`** – Project documentation and architecture.
+  - **`etl.drawio`** – ETL techniques and methods.
+  - **`data_architecture.drawio`** – Project architecture.
+  - **`data_catalog.md`** – Dataset fields and metadata.
+  - **`data_flow.drawio`** – Data flow diagram.
+  - **`data_models.drawio`** – Data models and star schema.
+  - **`naming-conventions.md`** – Naming guidelines.
+
+- **`scripts/`** – SQL scripts for ETL and data transformations.
+  - **`bronze/`** – Raw data extraction and loading.
+  - **`silver/`** – Data cleaning and transformation.
+  - **`gold/`** – Analytical data models.
+
+- **`tests/`** – Data quality and testing scripts.
+
+- **`README.md`** – Project overview and instructions.
