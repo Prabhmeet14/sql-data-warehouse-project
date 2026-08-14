@@ -5,6 +5,18 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ----
 
+## Data Architecture
+
+The data architecture for this project follows the **Medallion Architecture**, consisting of **Bronze**, **Silver**, and **Gold** layers:
+
+<img width="1544" height="912" alt="image" src="https://github.com/user-attachments/assets/73d3d1bb-f5d4-4143-9346-3bac44a6168b" />
+
+1. **Bronze Layer**: Stores raw data as-is from source systems. Data is ingested from CSV files into a SQL Server database.
+2. **Silver Layer**: Performs data cleansing, standardization, and normalization to prepare the data for analysis.
+3. **Gold Layer**: Contains business-ready data modeled using a **Star Schema** for reporting and analytics.
+
+----
+
 ## 📌 Project Overview
 
 This project focuses on designing and implementing a **Modern Data Warehouse** using the **Medallion Architecture**, along with developing ETL pipelines, analytical data models, and reporting solutions.
