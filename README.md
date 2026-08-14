@@ -5,6 +5,43 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ----
 
+## 📌 Project Overview
+
+This project focuses on designing and implementing a **Modern Data Warehouse** using the **Medallion Architecture**, along with developing ETL pipelines, analytical data models, and reporting solutions.
+
+### 🔹 Project Components
+
+#### 1. Data Architecture
+Design and implement a modern data warehouse using the **Medallion Architecture**, consisting of three layers:
+
+- **🥉 Bronze Layer** – Stores raw data extracted from source systems.
+- **🥈 Silver Layer** – Contains cleaned, transformed, and standardized data.
+- **🥇 Gold Layer** – Contains business-ready data optimized for analytics and reporting.
+
+#### 2. ETL Pipelines
+Develop **Extract, Transform, and Load (ETL)** pipelines to:
+
+- Extract data from source systems.
+- Clean and transform the data.
+- Load processed data into the appropriate warehouse layers.
+
+#### 3. Data Modeling
+Develop analytical data models consisting of:
+
+- **Fact Tables** – Store measurable business events and metrics.
+- **Dimension Tables** – Store descriptive attributes used for analysis and filtering.
+- Optimized relationships to support efficient analytical queries.
+
+#### 4. Analytics & Reporting
+Create **SQL-based analytical reports and dashboards** to:
+
+- Analyze business performance.
+- Identify trends and patterns.
+- Generate actionable business insights.
+- Support data-driven decision-making.
+
+----
+
 ## Project Requirements 
 
 ## Building a Data Warehouse (Data Engineering)
